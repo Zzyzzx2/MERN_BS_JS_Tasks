@@ -1,0 +1,223 @@
+*
+{
+    box-sizing: border-box;
+}
+
+body
+{
+    font-family: 'Nunito', sans-serif;
+    font-family: 'Nunito Sans', sans-serif;
+    font-family: 'Poppins', sans-serif;
+    font-family: 'Roboto', sans-serif;
+    background-color: lightgray;
+}
+
+.header
+{
+    padding: 0 60px;
+}
+
+.header h1
+{
+    font-size: 60px;
+    font-weight: 600;
+    margin: 0;
+}
+
+.header .row
+{
+    padding-top: 10px;
+    margin: 0;
+}
+
+.header .header-item
+{
+    display: flex;
+    align-items: center;
+    justify-content: flex-end;
+}
+
+.header-icon .material-symbols-outlined
+{
+    font-size: 40px;
+    margin: 0 10px;
+}
+
+.header-text p
+{
+    margin-bottom: 0;
+}
+
+#navbar-row
+{
+    margin-top: 16px;
+    padding: 0 12px;
+}
+
+.navbar
+{
+    padding: 20px 12px;
+    font-size: 15px;
+}
+
+.navbar-nav a
+{
+    color: white;
+}
+
+.navbar-nav .nav-link.active, .navbar-nav a:hover, .navbar-nav a:focus, .navbar-nav .nav-link.show
+{
+    color: #ffc107;
+}
+
+.dropdown-menu
+{
+    background-color: #212529;
+    border: 1px solid #ffc107;
+}
+
+.dropdown-menu a
+{
+    color: white;
+    font-size: 14px;
+}
+
+.dropdown-menu a:hover
+{
+    background-color: #ffc107;
+    color: black;
+}
+
+.navbar-nav
+{
+    gap: 15px;
+}
+
+.btn
+{
+    border-radius: 0;
+}
+
+.navbar-toggler
+{
+    margin: 12px;
+    border: 0;
+    border-radius: 3px;
+    background-color: #ffc107;
+}
+
+.navbar-toggler-icon
+{
+    color: white;
+}
+
+.carousel img
+{
+    max-height: 780px;
+    object-fit: cover;
+}
+
+.carousel .carousel-caption
+{
+    position: absolute;
+    top: 30%;
+    
+}
+
+.carousel .carousel-caption p
+{
+    font-size: 40px;
+}
+
+.carousel .carousel-caption h1
+{
+    font-size: 58px;
+}
+
+.carousel .btn
+{
+    margin-top: 40px;
+    font-size: 28px;
+}
+
+.footer .row
+{
+    align-items: center;
+}
+
+.footer-icon
+{
+    text-align: center;
+}
+
+
+@media screen and (max-width: 1024px)
+{
+    .carousel .carousel-caption
+    {
+        top: 15%
+    }    
+}
+
+@media screen and (max-width: 768px)
+{
+    .carousel .carousel-caption p
+    {
+        font-size: 28px;
+    }    
+    .carousel .carousel-caption h1
+    {
+        font-size: 45px;
+    }
+    .carousel .carousel-caption
+    {
+        top: 25%;
+    }
+}
+
+@media screen and (max-width: 425px)
+{
+    .carousel .carousel-caption p
+    {
+        font-size: 20px;
+        margin-bottom: 10px;
+    }    
+    .carousel .carousel-caption h1
+    {
+        margin-top: 10px;
+        font-size: 30px;
+    }
+    .carousel .carousel-caption
+    {
+        top: 10%;
+    }
+    .carousel .btn
+    {
+        margin-top: 10px;
+        font-size: 14px;
+    }
+}
+
+@media screen and (max-width: 375px)
+{
+    .carousel .carousel-caption p
+    {
+        font-size: 16px;
+        margin-bottom: 10px;
+    }    
+    .carousel .carousel-caption h1
+    {
+        margin-top: 10px;
+        font-size: 20px;
+    }
+    .carousel .carousel-caption
+    {
+        top: 10%;
+    }
+    .carousel .btn
+    {
+        margin: 0;
+        padding: 5px 8px;
+        font-size: 14px;
+    }
+}

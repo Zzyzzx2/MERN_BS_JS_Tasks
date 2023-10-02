@@ -1,0 +1,61 @@
+.container
+{
+    background-color: rgb(221, 221, 221);
+    border-radius: 5px;
+}
+
+.form
+{
+    padding: 10px 5px;
+}
+
+.form .row
+{
+    margin: 12px 0;
+}
+
+.form-group .input-group-text
+{
+    border-top-right-radius: 0;
+    border-bottom-right-radius: 0;
+}
+
+.form-group .form-control
+{
+    border-top-left-radius: 0;
+    border-bottom-left-radius: 0;
+}
+
+.form-group .col-sm-10
+{
+    align-items: center;
+}
+
+.radio-label
+{
+    margin: 0 16px 0 8px;
+}
+
+#submit-button
+{
+    background: linear-gradient(180deg, rgb(221, 155, 11), rgb(221, 95, 11));
+    border: 1px solid rgb(221, 113, 11);
+    color: white;
+}
+
+#submit-button:hover
+{
+    background: linear-gradient(180deg, rgb(221, 200, 11), rgb(221, 140, 11));
+    border: 1px solid rgb(221, 157, 11);
+}
+
+#submit-button:active
+{
+    background: linear-gradient(180deg, rgb(176, 110, 11), rgb(176, 50, 11));
+    border: 1px solid rgb(176, 112, 11);
+}
+
+.col-form-label:invalid
+{
+    color: rgb(80, 14, 14);
+}

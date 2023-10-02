@@ -1,0 +1,37 @@
+.container
+{
+    width: 40%;
+}
+
+@media screen and (max-width: 768px) and (min-width: 426px) {
+    .container
+    {
+        width: 80%;
+    }
+
+    .form-container
+    {
+        margin: 0 auto;
+    }
+
+    .form-container form
+    {
+        width: 100%;
+    }
+}
+
+@media screen and (max-width: 425px)
+{
+    .container
+    {
+        width: 100%;
+    }
+    .form-container
+    {
+        align-items: center;
+    }
+    .form-container form
+    {
+        width: 200%;
+    }
+}

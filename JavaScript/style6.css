@@ -1,0 +1,55 @@
+.input-group-prepend > .input-group-text
+{
+    border-top-right-radius: 0;
+    border-bottom-right-radius: 0;
+    width: min-content;
+    display: flex;
+}
+
+.input-group .form-control
+{
+
+    border-top-left-radius: 0;
+    border-bottom-left-radius: 0;
+}
+
+.form-row button
+{
+    padding: 12px 0;
+    margin-bottom: 12px;
+}
+
+.form-header
+{
+    font-family: 'Satisfy', cursive;
+}
+
+.form-header h1
+{
+    font-size: 60px;
+}
+
+@media screen and (max-width: 376px) {
+    .input-group-prepend
+    {
+        display: none;
+    }
+    .form-check-label, .form-link a
+    {
+        font-size: 12px;
+    }
+}
+
+@media screen and (min-width: 377) and (max-width: 426px) {
+    .form-check-label, .form-link a
+    {
+        font-size: 14px;
+    }
+}
+
+@media screen and (max-width: 426px) {
+    .form-header h1
+    {
+        font-size: 40px;
+    }
+}
